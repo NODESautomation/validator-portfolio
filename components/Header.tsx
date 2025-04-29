@@ -15,7 +15,7 @@ export default function Header() {
     <header className="bg-emerald-500/90 dark:bg-emerald-700/90 text-white p-4 backdrop-blur-sm">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2">
-       <Image src="/img/NA_logo.png" alt="NODESautomation Logo" width={40} height={40} className="rounded-full" />
+       <Image src="/img/NA.png" alt="NODESautomation Logo" width={40} height={40} className="rounded-full" />
         <span className="text-xl font-bold text-shadow">NODESautomation</span>
         </Link>
         <div className="flex items-center space-x-4">
