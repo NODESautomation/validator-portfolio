@@ -20,7 +20,7 @@ body {
       to bottom,
       rgba(var(--background-start-rgb), 0.9),
       rgba(var(--background-end-rgb), 0.9)
-    ), url("/circuit-board.png");
+    ), url("img/BG.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
