@@ -27,9 +27,9 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
   return (
     <>
-      <div className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40" onClick={onClose} aria-hidden="true" />
+      <div className="fixed inset-0 bg-black/20 backdrop-blur-sm z-140" onClick={onClose} aria-hidden="true" />
       <div
-        className="fixed top-0 right-0 h-full w-64 bg-emerald-300/95 dark:bg-emerald-400/95 text-white p-4 z-50"
+        className="fixed top-0 right-0 h-full w-64 bg-emerald-800/95 dark:bg-emerald-800/95 text-white p-4 z-50"
         role="dialog"
         aria-modal="true"
       >
