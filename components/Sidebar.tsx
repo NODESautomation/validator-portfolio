@@ -29,7 +29,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
     <>
       <div className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40" onClick={onClose} aria-hidden="true" />
       <div
-        className="fixed top-0 right-0 h-full w-64 bg-emerald-600/95 dark:bg-emerald-800/95 text-white p-4 z-50"
+        className="fixed top-0 right-0 h-full w-64 bg-blue-600/95 dark:bg-blue-800/95 text-white p-4 z-50"
         role="dialog"
         aria-modal="true"
       >
@@ -42,7 +42,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <li>
               <Link
                 href="https://explore.axone.xyz/"
-                className="hover:text-emerald-200 text-shadow"
+                className="hover:text-blue-200 text-shadow"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,7 +52,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <li>
               <Link
                 href="https://app.testnet.initia.xyz/"
-                className="hover:text-emerald-200 text-shadow"
+                className="hover:text-blue-200 text-shadow"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <li>
               <Link
                 href="https://wardenprotocol.org/"
-                className="hover:text-emerald-200 text-shadow"
+                className="hover:text-blue-200 text-shadow"
                 target="_blank"
                 rel="noopener noreferrer"
               >
