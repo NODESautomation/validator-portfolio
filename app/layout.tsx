@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-blue-50 dark:bg-blue-900 text-blue-900 dark:text-blue-50`}>
+      <body className={`${inter.className} bg-emerald-50 dark:bg-emerald-900 text-emerald-900 dark:text-emerald-50`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <div className="flex flex-col min-h-screen">
             <Header />
