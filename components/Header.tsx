@@ -34,6 +34,7 @@ export default function Header() {
           <button
             onClick={() => setSidebarOpen(true)}
             className="p-2 rounded-full hover:bg-emerald-600/80 dark:hover:bg-emerald-800/80"
+            aria-label="Open menu"
           >
             <Menu size={24} />
           </button>

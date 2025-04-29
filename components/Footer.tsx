@@ -14,7 +14,7 @@ export default function Footer() {
           <Twitter size={24} />
         </Link>
         <Link
-          href="https://github.com/mixajil/NODESautomation"
+          href="https://github.com/NODESautomation"
           className="hover:text-emerald-200"
           target="_blank"
           rel="noopener noreferrer"
@@ -22,7 +22,7 @@ export default function Footer() {
           <Github size={24} />
         </Link>
         <Link
-          href="https://discord.gg/janTrC46"
+          href="https://discordapp.com/users/1207293418959798292/"
           className="hover:text-emerald-200"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export default function Footer() {
           <MessageCircle size={24} />
         </Link>
         <Link
-          href="https://keybase.io/mixajil/NODESautomation"
+          href="https://keybase.io/mixajil"
           className="hover:text-emerald-200"
           target="_blank"
           rel="noopener noreferrer"
