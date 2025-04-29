@@ -6,18 +6,18 @@
  /* --foreground-rgb: 6, 78, 59;
   --background-start-rgb: 236, 253, 245;
   --background-end-rgb: 209, 250, 229;*/
-  --foreground-rgb: 54, 83, 20;
-  --background-start-rgb: 247, 254, 231;
-  --background-end-rgb: 236, 252, 203;
+  --foreground-rgb: 23, 23, 23;
+  --background-start-rgb: 250, 250, 250;
+  --background-end-rgb: 245, 245, 245;
 }
 
 .dark {
  /* --foreground-rgb: 236, 253, 245;
   --background-start-rgb: 6, 78, 59;
   --background-end-rgb: 4, 120, 87;*/
-  --foreground-rgb: 247, 254, 231;
-  --background-start-rgb: 54, 83, 20;
-  --background-end-rgb: 77, 124, 15;
+  --foreground-rgb: 250, 250, 250;
+  --background-start-rgb: 23, 23, 23;
+  --background-end-rgb: 64, 64, 64;
 }
 
 body {
@@ -40,7 +40,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
   background-image: url('/img/BG.jpg');
   background-size: cover;
   background-position: center;
